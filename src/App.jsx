@@ -94,7 +94,7 @@ export default function App() {
 
   return (
     <div className="app">
-      <Header counts={counts} isCreating={isCreating} onToggleCreate={handleToggleCreate} />
+      <Header isCreating={isCreating} onToggleCreate={handleToggleCreate} />
 
       <main className="app__main">
         <TaskFilters
